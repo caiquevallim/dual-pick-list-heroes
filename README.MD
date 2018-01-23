@@ -2,6 +2,8 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ouracademy/ngx-dual-listbox/master/LICENSE)
 
+<img src="dual-pick-list-img.png" width="1080" hspace="12"/>
+
 ## Table of contents
 
 - [Demo](#demo)
