@@ -62,9 +62,9 @@ angular.module('todoApp', ["smart-table", "dual-pick-list"])
         ];
         app.headerConfig ={
             left:[
-                {text:"Id", key:"cdId", custom:false},
-                {text:"Description", key:"descHero", custom:false},
-                {text:"What is power ?", key:"", custom:true, button:{onClick:function (item) {
+                {text:"Id", key:"cdId", custom:false, visible:false},
+                {text:"Description", key:"descHero", custom:false, visible:true},
+                {text:"What is power ?", key:"", visible:true, custom:true, button:{onClick:function (item) {
                     var power = app.powers.find(function (itemF) {
                         return itemF.id === item.idPower
                     });
@@ -76,10 +76,10 @@ angular.module('todoApp', ["smart-table", "dual-pick-list"])
                 }}}
             ],
             right:[
-                {text:"Id", key:"cdId", custom:false},
-                {text:"Description", key:"descHero", custom:false},
-                {text:"Power", key:"idPower", select:{list:app.powers},custom:true},
-                {text:"Active", key:"isActive", custom:true, checkbox:true}
+                {text:"Id", key:"cdId", custom:false, visible:true},
+                {text:"Description", key:"descHero", custom:false, visible:true},
+                {text:"Power", key:"idPower", select:{list:app.powers},custom:true, visible:true},
+                {text:"Active", key:"isActive", custom:true, checkbox:true, visible:true}
 
             ]
         };
