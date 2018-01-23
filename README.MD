@@ -17,9 +17,9 @@ This is an example using ```$ npm install dual-pick-list --save```
 
 ## More
 
-```
-https://github.com/caiquevallim/dual-pick-list.git
-```
+``
+<a href="https://github.com/caiquevallim/dual-pick-list">https://github.com/caiquevallim/dual-pick-list</a>
+``
 
 ## License
 
