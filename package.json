@@ -1,0 +1,22 @@
+{
+  "name": "new_project",
+  "version": "1.0.0",
+  "description": "testing-dual-pick-list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d"
+  ],
+  "author": "caique vallim",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-smart-table": "^2.1.11",
+    "bootstrap": "^3.3.6",
+    "bootstrap-duallistbox": "^3.0.6",
+    "dual-pick-list": "^1.0.3",
+    "lodash": "^4.17.4"
+  }
+}

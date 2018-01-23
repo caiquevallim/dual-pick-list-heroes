@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp">
+<head>
+    <meta charset="UTF-8">
+    <title>My favorite heroes</title>
+    <script src="./node_modules/angular/angular.min.js"> </script>
+    <script src="./node_modules/angular-smart-table/dist/smart-table.min.js"> </script>
+    <script src="./node_modules/dual-pick-list/dual-pick-list.component.js"> </script>
+    <script src="./node_modules/lodash/lodash.min.js"> </script>
+    <script src="test-dual-list.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-duallistbox/dist/bootstrap-duallistbox.min.css">
+</head>
+<body>
+
+<div ng-controller="HeroListController as app" >
+
+    <div class="container">
+        <dual-pick-list list="app.items" header-config="app.headerConfig" on-transaction="app.onTransaction(leftList, rightList)" text-key-left-list="All Heroes" text-key-right-list="My Heroes"></dual-pick-list>
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>
